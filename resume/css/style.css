@@ -1,0 +1,66 @@
+/* CSS stylesheet */
+@charset "utf-8";
+body {
+font-family: "Georgia", Times New Roman, Times, serif;
+color: #0d0d0d;
+background-color: #f5f5f5;
+/*background-color: #005b61;
+background-image: url(../images/diagmonds.png);*/
+
+font-size: 14px;
+line-height:1.4em;
+}
+
+.wrapper {
+background: #42A8C0;
+max-width: 960px;
+margin: 0 auto;
+position: relative;
+}
+
+.line {height:1px; margin:0px auto; /*background-color:#31708F;*/ background-color: #454c57;}
+
+aside{
+/*background-color: #3d899b;
+background-color: #404040;*/
+background-color: #5b636f;
+position: absolute;
+left: 0;
+width: 240px;
+height: 100%;
+min-height: 800px;
+color: #fff;
+font-size: 14px;
+line-height: 1.5em;
+}
+
+aside .profile{ padding:30px;}
+aside .contact{ font-size: 12px; }
+
+section{
+background-color: #fff;
+padding: 30px;
+padding-left: 300px;
+padding-right:50px;
+min-height: 800px;
+}
+section .line{background-color:#454c57; margin-top:-10px;
+}
+section h2{color:#0d0d0d;}
+
+section a{color:#1a1a1a; font-style: italic;  }
+a{color:#fff; text-decoration:none;}
+a:hover{ text-decoration:underline; }
+
+/*For small devices (phones, < 768px)
+@media (max-width:767px){
+  aside{
+    position:relative;
+    width:inherit;
+    text-align: center;
+  }
+
+  section{
+    padding: 30px;
+  }
+}*/
